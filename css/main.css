@@ -1,0 +1,17 @@
+* { max-width: 1257px; margin: auto; }
+
+html { height: 100%; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+*, *:before, *:after { -webkit-box-sizing: inherit; box-sizing: inherit; }
+
+body { position: relative; margin: 0; padding-bottom: 3rem; min-height: 100%; background-color: lightgray; }
+
+#theHeader { text-align: center; }
+
+.wrapper { display: grid; grid-template-columns: 1fr 1fr; grid-gap: 10px; background-color: #fff; color: #444; }
+
+.box { background-color: #444; color: #fff; border-radius: 5px; padding: 20px; font-size: 150%; height: 90vh; width: 40vw; }
+
+.task { background-color: #9e9e9e; color: black; padding: 5px; margin: 4px; }
+
+#theFooter { position: absolute; left: 0; right: 0; bottom: 0; padding: 1rem; text-align: center; }
